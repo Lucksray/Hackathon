@@ -24,11 +24,7 @@ public class Orders {
 	public Long getPackageId() {return this.packageId;}
 	public void setPackageId(Long packageId) {this.packageId = packageId;}
 
-	@Override
 	public String toString() {
 		return "Orders [id=" + id + ", address=" + address + ", packageId=" + packageId + "]";
 	}
-	
-	
-
 }

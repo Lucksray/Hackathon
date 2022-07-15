@@ -67,5 +67,4 @@ public class Logins {
 		return Objects.equals(assignerName, other.assignerName) && Objects.equals(driversName, other.driversName)
 				&& Objects.equals(loginsId, other.loginsId);
 	}
-
 }
